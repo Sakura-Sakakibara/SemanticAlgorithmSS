@@ -1,0 +1,26 @@
+{
+    "id": "CBE42CEF",
+    "path": "~/Courses/0_Intermediate R/group exam/GroupExamSS/R/summarize_sentiment.R",
+    "project_path": "R/summarize_sentiment.R",
+    "type": "r_source",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1744962003445.0,
+    "source_on_save": false,
+    "relative_order": 6,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "17,0",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1744962098,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1744962098719,
+    "read_only": false,
+    "read_only_alternatives": []
+}

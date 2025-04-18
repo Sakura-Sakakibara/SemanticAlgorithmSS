@@ -1,0 +1,27 @@
+#' Load text
+#'
+#' @description
+#' his function loads text data from a file using read.delim.
+#' It expects a .txt file with one sentence per line.
+#'
+#' @param filepath A string. The path to the .txt file.
+#'
+#' @return A data frame with one column containing the text.
+#'
+#' @export
+#'
+
+load_text <- function(filepath) {
+  # Load the text data
+  text_data <- read.delim(filepath, header = FALSE, stringsAsFactors = FALSE)
+
+  # Reshape from wide to long format (from V1, V2, ... to one column)
+  library(tidyr)
+  library(dplyr)
+
+  text_long <- pivot_longer(text_data, cols = everything(), values_to = "text") %>%
+    select(text)
+
+  return(text_long)
+}
+

@@ -1,0 +1,9 @@
+Package: GroupExamSS
+Type: Package
+Title: Semantic algorithm
+Version: 0.1.0
+Authors@R: person("Sakura", "Sakakibara", email = "sakura.sakakibara@ki.se", role = c("aut", "cre"))
+Description: This is a a simple semantic algorithm for summarising negative and positive words in a document.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true

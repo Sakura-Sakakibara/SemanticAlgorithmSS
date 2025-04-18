@@ -1,0 +1,13 @@
+Package: GroupExamSS
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.0.9000
+Authors@R: 
+    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
+Description: An R package to perform basic semantic sentiment analysis by summarizing the number of positive and negative words in diary-style text documents.
+License: MIT
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: 
+    dplyr,
+    tidyr
